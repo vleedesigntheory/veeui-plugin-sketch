@@ -1,3 +1,6 @@
+# build artefacts
+veeui-plugin-sketch.sketchplugin
+
 # Logs
 logs
 *.log
