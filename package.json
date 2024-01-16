@@ -1,5 +1,6 @@
 {
   "name": "veeui-plugin-sketch",
+  "description": "A Plugin of Sketch for Vee UI Library",
   "version": "0.1.0",
   "engines": {
     "sketch": ">=3.0"
@@ -34,5 +35,6 @@
   ],
   "dependencies": {
     "sketch-module-web-view": "^3.1.4"
-  }
+  },
+  "author": "veeui"
 }

@@ -7,9 +7,10 @@ const webviewIdentifier = 'veeui-plugin-sketch.webview'
 export default function () {
   const options = {
     identifier: webviewIdentifier,
-    width: 240,
-    height: 180,
-    show: false
+    title: 'VeeUI 组件库',
+    width: 1280,
+    height: 720,
+    resizable: true
   }
 
   const browserWindow = new BrowserWindow(options)
@@ -34,7 +35,7 @@ export default function () {
       .catch(console.error)
   })
 
-  browserWindow.loadURL(require('../resources/webview.html'))
+  browserWindow.loadURL(require('../dist/index.html'))
 }
 
 // When the plugin is shutdown by Sketch (for example when the user disable the plugin)
@@ -45,3 +46,7 @@ export function onShutdown() {
     existingWebview.close()
   }
 }
+
+export function onOpenDocument() {
+
+};

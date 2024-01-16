@@ -3,12 +3,25 @@
   "bundleVersion": 1,
   "commands": [
     {
-      "name": "my-command",
-      "identifier": "veeui-plugin-sketch.my-command-identifier",
-      "script": "./my-command.js",
+      "name": "启动",
+      "identifier": "veeui-plugin-sketch.actions",
+      "script": "./actions.js",
+      "handlers": {
+        "actions": {
+          "StartUp": "onStartUp",
+          "Shutdown": "onShutdown"
+        }
+      }
+    },
+    {
+      "name": "组件库",
+      "identifier": "veeui-plugin-sketch.library",
+      "script": "./library.js",
+      "shortcut": "ctrl shift l",
       "handlers": {
         "run": "onRun",
         "actions": {
+          "OpenDocument": "OpenDocument",
           "Shutdown": "onShutdown"
         }
       }
@@ -16,6 +29,8 @@
   ],
   "menu": {
     "title": "veeui-plugin-sketch",
-    "items": ["veeui-plugin-sketch.my-command-identifier"]
+    "items": [
+      "veeui-plugin-sketch.library"
+    ]
   }
 }
