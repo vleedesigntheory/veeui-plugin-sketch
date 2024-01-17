@@ -8,6 +8,14 @@
 
 ## Principle
 
+Due to the underlying plug-in mechanism provided by Sketch, the entire architecture design pattern uses a layered approach combined with the API provided by the toolkit in Sketch for custom feature development.
+
+![architecture](assets/architecture.png)
+
+[The VeeUI Sketch plugin](https://github.com/vleedesigntheory/veeui-plugin-sketch) uses a custom development based on the `skpm` scaffolding provided by Sketch's official website.
+
+![technology](assets/technology.png)
+
 ## License
 
 [MIT](http://opensource.org/licenses/MIT)
