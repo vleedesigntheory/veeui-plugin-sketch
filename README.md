@@ -1,5 +1,5 @@
 <p align="center">
-  <a href="https://github.com/vleedesigntheory/veeui-plugin-sketch" title="VeeUI Sketch 插件"><img alt="VeeUI Logo" src="https://vleedesigntheory.github.io/design/vi/veevi20200808/veedesign.png" width="180"></a>
+  <a href="https://github.com/vleedesigntheory/veeui-plugin-sketch" title="VeeUI Sketch Plugin"><img alt="VeeUI Logo" src="https://vleedesigntheory.github.io/design/vi/veevi20200808/veedesign.png" width="180"></a>
 </p>
 
 # veeui-plugin-sketch
